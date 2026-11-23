@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+# Die Themen des Wettbewerbs reichen über fünf Stränge der Lernlandkarte Mathematik: kein Strang.
+strand: none
+title: "Mathe-Wettbewerb 8: Wahrscheinlichkeit"
+intro: |
+  Für die 1. Runde des Mathematik-Wettbewerbs des Landes Hessen, Klasse 8, Gymnasium. Im Wettbewerb gibt es 8
+  Pflichtaufgaben und 4 Wahlaufgaben, von denen du 2 bearbeitest. Taschenrechner und Formelsammlung sind nicht
+  erlaubt: Formeln musst du auswendig können, und alle Zahlen hier gehen im Kopf oder schriftlich auf.
+
+  Diese App übt Wahrscheinlichkeit und das Wahlthema W4 (zweistufige Zufallsversuche). Die anderen Themen des Wettbewerbs übst du in den Apps [Zuordnungen und Prozent](https://rdmueller.github.io/mathe-wb8-prozent/), [Brüche, Terme und Gleichungen](https://rdmueller.github.io/mathe-wb8-terme/) und [Geometrie](https://rdmueller.github.io/mathe-wb8-geometrie/).
+
+  Prüfe zuerst mit der Selbsteinschätzung (unten auf dieser Seite), was du schon kannst – dann weißt du, welche
+  Seiten du genau lesen solltest.
+
+  **So gehst du an jede Aufgabe heran:**
+
+  1. Lies die Aufgabe ganz und bestimme das Thema.
+  2. Schreib auf, was gegeben und was gesucht ist.
+  3. Überlege die Formel und deinen Plan – erst dann rechnest du.
+  4. Schreib einen Antwortsatz und prüfe, ob das Ergebnis passen kann.
+languages: [de]
+chapters: [wahrscheinlichkeit, w4-zufall]
+sources:
+  - title: Mathematik-Wettbewerb des Landes Hessen
+    url: https://mathematik-wettbewerb.de/pages/index.xml
+  - title: Flächenformeln ebener Figuren (Serlo)
+    url: https://de.serlo.org/mathe/36520/flaechenformeln-ebener-figuren
+tutor:
+  rules: |
+    Im Wettbewerb sind Taschenrechner und Formelsammlung verboten. Rechne mit dem Kind im Kopf oder schriftlich, und
+    lass es die Formel selbst aufschreiben, bevor es rechnet. Rechenwege gehören aufs Papier, das Ergebnis in die App.
