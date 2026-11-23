@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wahlaufgabe W4: Zweistufige Zufallsversuche"
+summary: Ziehen ohne Zurücklegen, Ereignisse wie „genau einmal“ und „mindestens einmal“ als Pfade im Baum und das Gegenereignis – für die Wahlaufgabe mit Urnen, Losen und Glücksrädern.
+pages: [ohne-zuruecklegen, ereignisse-pfade, gegenereignis]
+# The chapter's self-assessment: one step, one exercise per page (generated where possible), in course order.
+selfAssessment:
+  pages:
+    - exercises:
+        - /w4-zufall/ohne-zuruecklegen/#ohne-zuruecklegen-zweimal-rot
+        - /w4-zufall/ereignisse-pfade/#ereignisse-pfade-genau
+        - /w4-zufall/gegenereignis/#gegenereignis-urne
