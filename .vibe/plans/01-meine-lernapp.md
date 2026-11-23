@@ -636,12 +636,12 @@ page, which a link. -->
 - [x] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
       Creator: ja
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
+- [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
       the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
-- [ ] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
+- [x] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
+- [x] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
       "Finding the app".
-- [ ] Fill the retrospective.
+- [x] Fill the retrospective.
 - [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
 - [ ] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
       pull request is the review. See it to "bestanden", then show the creator the pull request and its result.
@@ -649,9 +649,27 @@ page, which a link. -->
 
 ### Entry draft
 
-<!-- YAML valid against the entry schema the listing skill names. Only known values, never invented. -->
-
 ```yaml
+# yaml-language-server: $schema=https://lernapps.net/apps/schemas/entry.v1.schema.json
+title: "Mathe-Wettbewerb 8: Wahrscheinlichkeit"
+subject: mathematik
+grades: [8]
+summary: >-
+  Vorbereitung auf den Mathematik-Wettbewerb in Hessen, Klasse 8: Wahrscheinlichkeit und die Wahlaufgabe W4
+  (zweistufige Zufallsversuche). Jede Seite wiederholt eine Regel mit Beispiel und Bild. Danach rechnen die
+  Lernenden ohne Taschenrechner Aufgaben, die sofort sagen, ob das Ergebnis stimmt.
+url: https://rdmueller.github.io/mathe-wb8-zufall/
+keywords: [Mathewettbewerb, Mathe-Wettbewerb Hessen, Wettbewerb Klasse 8, Wahrscheinlichkeit, Baumdiagramm, Pfadregeln, Gegenereignis, Zufall]
+creator: { name: "Ralf D. Müller", url: "https://github.com/rdmueller" }
+source: https://github.com/rdmueller/mathe-wb8-zufall
+commit: <der Commit von main nach dem Push dieses Plans>
+fitness:
+  account: false
+  install: false
+  storage: device
+  thirdParty: none
+  thirdPartyNote: ""
+  checked: false
 ```
 
 ## Retrospective
@@ -660,12 +678,22 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+commit; Recherche bestätigt, Plan bestätigt, Musterseite bestätigt, Veröffentlichung bestätigt („ja“), veröffentlicht.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+8 nach der Bestätigung des Plans: Musterseite „ja“; Repo-Name „passt“ und „angelegt“; Frage, ob ich Pages selbst
+einschalten kann; Hinweis, dass das in einer anderen Sitzung ging; Selbsteinschätzung zu lang (24 Seiten, höchstens
+3) mit der Wahl „Mehrere Apps“, „4 Apps“, „Neue Repos“, „Link auf die andere App“; Frage, ob ich Repos anlegen kann;
+„angelegt“ mit der Frage nach vorhandenen Apps zu Prozent und Zufall, dann „Erst vergleichen“ und „Alle 4
+behalten“; Freigabe „ja“. Ziel (höchstens 3) überschritten: die Aufteilung kam erst nach der Vorschau.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+- Selbsteinschätzung: Die Laufzeit hängt alle Kapitel zu einer App-Selbsteinschätzung zusammen und lässt sich nicht
+  abschalten. Das zeigte sich erst in der Vorschau; Lösung war die Aufteilung in 4 Apps (Erstellerin/Ersteller).
+- Repos und Pages: Diese Umgebung kann keine Repos anlegen und Pages nicht einstellen; Pages schaltete sich beim ersten
+  Lauf des Workflows selbst ein.
+- Auswahl der Aufgaben der Selbsteinschätzung: eine je Inhaltsseite, generated zuerst. (guess)
+- Katalog-Id = Repo-Name, Klasse nur 8, Suchwörter aus „Mathewettbewerb Hessen Klasse 8 üben“. (guess)
+- Doppelungen mit „Mathe: Arithmetik“ und „Mathe: Stochastik“: verglichen, alle 4 behalten (Erstellerin/Ersteller).
