@@ -643,9 +643,10 @@ page, which a link. -->
       "Finding the app".
 - [x] Fill the retrospective.
 - [x] Commit this plan on `main` and push it: the listing check and the review read it there.
-- [ ] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
+- [x] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
       pull request is the review. See it to "bestanden", then show the creator the pull request and its result.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: gemacht (PR lernapps/apps#792)
+- [x] If the plan changed since its last push, commit it on `main` and push again.
 
 ### Entry draft
 
