@@ -642,7 +642,7 @@ page, which a link. -->
 - [x] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
       "Finding the app".
 - [x] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
+- [x] Commit this plan on `main` and push it: the listing check and the review read it there.
 - [ ] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
       pull request is the review. See it to "bestanden", then show the creator the pull request and its result.
 - [ ] If the plan changed since its last push, commit it on `main` and push again.
@@ -668,7 +668,6 @@ fitness:
   install: false
   storage: device
   thirdParty: none
-  thirdPartyNote: ""
   checked: false
 ```
 
